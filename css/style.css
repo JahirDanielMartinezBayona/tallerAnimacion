@@ -12,3 +12,7 @@ div#simple{
     animation-direction: normal;
 }
 
+html{
+    background: url(../storage/img/Mountains_mountains-drawing-tutorial.png) no-repeat center fixed;
+}
+
