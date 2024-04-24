@@ -8,11 +8,23 @@ html{
 #cloud{
     width: 350px;
     position: relative;
-    animation-name: example;
+    animation-name: cloud;
     
     animation-duration: 10s;
 }
-@keyframes example {
+@keyframes cloud {
     0%{left: 0px; top: 0px;}
     100%{left: 300px; top: 0px;}
+}
+
+#flower{
+    width: 200px;
+    position: relative;
+    top:450px;
+    animation-name: flower;
+    animation-duration: 30s;
+}
+@keyframes flower {
+    0%{display: none;}
+    100%{display: block;}
 }
