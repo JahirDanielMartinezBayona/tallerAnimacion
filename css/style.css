@@ -19,7 +19,7 @@ html{
     top:350px;
     left: 550px;
     animation-name: flower;
-    animation: flower 20s;
+    animation: flower 200s;
 }
 @keyframes flower {
     0%{opacity: 0;}
@@ -32,7 +32,7 @@ html{
     position: relative;
     animation-name: message;
     animation-duration: 10s;
-    animation: message 20s;
+    animation: message 200s;
 }
 
 @keyframes message{
