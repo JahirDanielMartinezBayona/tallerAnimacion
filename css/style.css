@@ -1,15 +1,11 @@
 html{
     background: url(../storage/img/Mountains_mountains-drawing-tutorial.png) no-repeat center fixed;
 }
-
-#sun{
-
-}
 #cloud{
     width: 350px;
     position: relative;
     animation-name: cloud;
-    
+    animation-fill-mode: forwards;
     animation-duration: 10s;
 }
 @keyframes cloud {
