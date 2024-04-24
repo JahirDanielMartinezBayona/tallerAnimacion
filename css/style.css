@@ -23,11 +23,11 @@ html{
     top:350px;
     left: 550px;
     animation-name: flower;
-    animation-duration: 30s;
+    animation: flower 20s;
 }
 @keyframes flower {
-    0%{display: none;}
-    100%{display: block;}
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 #message{
@@ -35,10 +35,11 @@ html{
     top: 150px;
     position: relative;
     animation-name: message;
-    animation-duration: 30s;
+    animation-duration: 10s;
+    animation: message 20s;
 }
 
 @keyframes message{
-    0%{display: none;}
-    100%{display: block;}
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
